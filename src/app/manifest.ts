@@ -1,0 +1,20 @@
+import { MetadataRoute } from "next";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "Atul Shere Portfolio",
+    short_name: "Atul",
+    description: "Software Developer Portfolio",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#0A0A0F",
+    theme_color: "#0A0A0F",
+    icons: [
+      {
+        src: "/favicon.ico",
+        sizes: "48x48",
+        type: "image/x-icon",
+      },
+    ],
+  };
+}
