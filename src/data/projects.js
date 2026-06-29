@@ -72,7 +72,7 @@ export const projects = [
       "Sourcik uses AI to streamline the supplier discovery process for businesses. During my internship at Floatinity, I developed the frontend in React, built and integrated RESTful APIs, and connected the application to MongoDB for data management.",
     tech: ["React", "Node.js", "MongoDB", "REST APIs"],
     github: null,
-    live: null,
+    live: "https://sourcik.com",
     status: "internship",
     featured: false,
     category: "AI / Full Stack",
