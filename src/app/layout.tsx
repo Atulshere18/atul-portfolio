@@ -6,7 +6,11 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Atul Manoj Shere | Full Stack Developer",
   description: "Full Stack Developer building scalable web apps and AI-powered platforms.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

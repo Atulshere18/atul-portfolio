@@ -77,10 +77,15 @@ export default function Hero() {
             className="bg-[#00d4ff] text-[#0a0a0f] px-6 py-3 rounded font-medium text-sm hover:bg-[#00d4ff]/90 transition-colors">
             View my work
           </Link>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"
-            className="flex items-center gap-2 text-[#e2e8f0] border border-[#2d2d3d] px-6 py-3 rounded text-sm hover:border-[#7c3aed] transition-colors">
-            <span className="text-[#7c3aed]">↓</span> Download resume
-          </a>
+       <a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 text-[#e2e8f0] border border-[#2d2d3d] px-6 py-3 rounded text-sm hover:border-[#7c3aed] transition-colors"
+>
+  <span className="text-[#7c3aed]">↓</span>
+  View Resume
+</a>
         </div>
 
         {/* Tech stack */}
